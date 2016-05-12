@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F1074D721CE110AD00D53C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1074D711CE110AD00D53C1B /* AppDelegate.swift */; };
-		F1074D751CE110AD00D53C1B /* BlackJack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1074D731CE110AD00D53C1B /* BlackJack.xcdatamodeld */; };
-		F1074D771CE110AD00D53C1B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1074D761CE110AD00D53C1B /* MasterViewController.swift */; };
-		F1074D791CE110AD00D53C1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1074D781CE110AD00D53C1B /* DetailViewController.swift */; };
-		F1074D7C1CE110AD00D53C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1074D7A1CE110AD00D53C1B /* Main.storyboard */; };
-		F1074D7E1CE110AD00D53C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1074D7D1CE110AD00D53C1B /* Assets.xcassets */; };
-		F1074D811CE110AD00D53C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1074D7F1CE110AD00D53C1B /* LaunchScreen.storyboard */; };
-		F1074D8C1CE110AD00D53C1B /* BlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1074D8B1CE110AD00D53C1B /* BlackJackTests.swift */; };
-		F1074D971CE110AD00D53C1B /* BlackJackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1074D961CE110AD00D53C1B /* BlackJackUITests.swift */; };
+		F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF631CE4D4160006DACA /* AppDelegate.swift */; };
+		F158CF661CE4D4160006DACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF651CE4D4160006DACA /* ViewController.swift */; };
+		F158CF691CE4D4160006DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158CF671CE4D4160006DACA /* Main.storyboard */; };
+		F158CF6C1CE4D4160006DACA /* BlackJack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */; };
+		F158CF6E1CE4D4160006DACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F158CF6D1CE4D4160006DACA /* Assets.xcassets */; };
+		F158CF711CE4D4160006DACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158CF6F1CE4D4160006DACA /* LaunchScreen.storyboard */; };
+		F158CF7C1CE4D4170006DACA /* BlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF7B1CE4D4170006DACA /* BlackJackTests.swift */; };
+		F158CF871CE4D4170006DACA /* BlackJackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF861CE4D4170006DACA /* BlackJackUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F1074D881CE110AD00D53C1B /* PBXContainerItemProxy */ = {
+		F158CF781CE4D4170006DACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1074D661CE110AD00D53C1B /* Project object */;
+			containerPortal = F158CF581CE4D4160006DACA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1074D6D1CE110AD00D53C1B;
+			remoteGlobalIDString = F158CF5F1CE4D4160006DACA;
 			remoteInfo = BlackJack;
 		};
-		F1074D931CE110AD00D53C1B /* PBXContainerItemProxy */ = {
+		F158CF831CE4D4170006DACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1074D661CE110AD00D53C1B /* Project object */;
+			containerPortal = F158CF581CE4D4160006DACA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F1074D6D1CE110AD00D53C1B;
+			remoteGlobalIDString = F158CF5F1CE4D4160006DACA;
 			remoteInfo = BlackJack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F1074D6E1CE110AD00D53C1B /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1074D711CE110AD00D53C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1074D741CE110AD00D53C1B /* BlackJack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackJack.xcdatamodel; sourceTree = "<group>"; };
-		F1074D761CE110AD00D53C1B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		F1074D781CE110AD00D53C1B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		F1074D7B1CE110AD00D53C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1074D7D1CE110AD00D53C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1074D801CE110AD00D53C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F1074D821CE110AD00D53C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1074D871CE110AD00D53C1B /* BlackJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1074D8B1CE110AD00D53C1B /* BlackJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackTests.swift; sourceTree = "<group>"; };
-		F1074D8D1CE110AD00D53C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1074D921CE110AD00D53C1B /* BlackJackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1074D961CE110AD00D53C1B /* BlackJackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackUITests.swift; sourceTree = "<group>"; };
-		F1074D981CE110AD00D53C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F158CF601CE4D4160006DACA /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158CF631CE4D4160006DACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F158CF651CE4D4160006DACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F158CF681CE4D4160006DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F158CF6B1CE4D4160006DACA /* BlackJack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackJack.xcdatamodel; sourceTree = "<group>"; };
+		F158CF6D1CE4D4160006DACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F158CF701CE4D4160006DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F158CF721CE4D4160006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F158CF771CE4D4170006DACA /* BlackJackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158CF7B1CE4D4170006DACA /* BlackJackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackTests.swift; sourceTree = "<group>"; };
+		F158CF7D1CE4D4170006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F158CF821CE4D4170006DACA /* BlackJackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F158CF861CE4D4170006DACA /* BlackJackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackUITests.swift; sourceTree = "<group>"; };
+		F158CF881CE4D4170006DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F1074D6B1CE110AD00D53C1B /* Frameworks */ = {
+		F158CF5D1CE4D4160006DACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D841CE110AD00D53C1B /* Frameworks */ = {
+		F158CF741CE4D4170006DACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D8F1CE110AD00D53C1B /* Frameworks */ = {
+		F158CF7F1CE4D4170006DACA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1074D651CE110AD00D53C1B = {
+		F158CF571CE4D4160006DACA = {
 			isa = PBXGroup;
 			children = (
-				F1074D701CE110AD00D53C1B /* BlackJack */,
-				F1074D8A1CE110AD00D53C1B /* BlackJackTests */,
-				F1074D951CE110AD00D53C1B /* BlackJackUITests */,
-				F1074D6F1CE110AD00D53C1B /* Products */,
+				F158CF621CE4D4160006DACA /* BlackJack */,
+				F158CF7A1CE4D4170006DACA /* BlackJackTests */,
+				F158CF851CE4D4170006DACA /* BlackJackUITests */,
+				F158CF611CE4D4160006DACA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F1074D6F1CE110AD00D53C1B /* Products */ = {
+		F158CF611CE4D4160006DACA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1074D6E1CE110AD00D53C1B /* BlackJack.app */,
-				F1074D871CE110AD00D53C1B /* BlackJackTests.xctest */,
-				F1074D921CE110AD00D53C1B /* BlackJackUITests.xctest */,
+				F158CF601CE4D4160006DACA /* BlackJack.app */,
+				F158CF771CE4D4170006DACA /* BlackJackTests.xctest */,
+				F158CF821CE4D4170006DACA /* BlackJackUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F1074D701CE110AD00D53C1B /* BlackJack */ = {
+		F158CF621CE4D4160006DACA /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
-				F1074D711CE110AD00D53C1B /* AppDelegate.swift */,
-				F1074D761CE110AD00D53C1B /* MasterViewController.swift */,
-				F1074D781CE110AD00D53C1B /* DetailViewController.swift */,
-				F1074D7A1CE110AD00D53C1B /* Main.storyboard */,
-				F1074D7D1CE110AD00D53C1B /* Assets.xcassets */,
-				F1074D7F1CE110AD00D53C1B /* LaunchScreen.storyboard */,
-				F1074D821CE110AD00D53C1B /* Info.plist */,
-				F1074D731CE110AD00D53C1B /* BlackJack.xcdatamodeld */,
+				F158CF631CE4D4160006DACA /* AppDelegate.swift */,
+				F158CF651CE4D4160006DACA /* ViewController.swift */,
+				F158CF671CE4D4160006DACA /* Main.storyboard */,
+				F158CF6D1CE4D4160006DACA /* Assets.xcassets */,
+				F158CF6F1CE4D4160006DACA /* LaunchScreen.storyboard */,
+				F158CF721CE4D4160006DACA /* Info.plist */,
+				F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
 		};
-		F1074D8A1CE110AD00D53C1B /* BlackJackTests */ = {
+		F158CF7A1CE4D4170006DACA /* BlackJackTests */ = {
 			isa = PBXGroup;
 			children = (
-				F1074D8B1CE110AD00D53C1B /* BlackJackTests.swift */,
-				F1074D8D1CE110AD00D53C1B /* Info.plist */,
+				F158CF7B1CE4D4170006DACA /* BlackJackTests.swift */,
+				F158CF7D1CE4D4170006DACA /* Info.plist */,
 			);
 			path = BlackJackTests;
 			sourceTree = "<group>";
 		};
-		F1074D951CE110AD00D53C1B /* BlackJackUITests */ = {
+		F158CF851CE4D4170006DACA /* BlackJackUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F1074D961CE110AD00D53C1B /* BlackJackUITests.swift */,
-				F1074D981CE110AD00D53C1B /* Info.plist */,
+				F158CF861CE4D4170006DACA /* BlackJackUITests.swift */,
+				F158CF881CE4D4170006DACA /* Info.plist */,
 			);
 			path = BlackJackUITests;
 			sourceTree = "<group>";
@@ -134,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1074D6D1CE110AD00D53C1B /* BlackJack */ = {
+		F158CF5F1CE4D4160006DACA /* BlackJack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1074D9B1CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJack" */;
+			buildConfigurationList = F158CF8B1CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJack" */;
 			buildPhases = (
-				F1074D6A1CE110AD00D53C1B /* Sources */,
-				F1074D6B1CE110AD00D53C1B /* Frameworks */,
-				F1074D6C1CE110AD00D53C1B /* Resources */,
+				F158CF5C1CE4D4160006DACA /* Sources */,
+				F158CF5D1CE4D4160006DACA /* Frameworks */,
+				F158CF5E1CE4D4160006DACA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +145,69 @@
 			);
 			name = BlackJack;
 			productName = BlackJack;
-			productReference = F1074D6E1CE110AD00D53C1B /* BlackJack.app */;
+			productReference = F158CF601CE4D4160006DACA /* BlackJack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1074D861CE110AD00D53C1B /* BlackJackTests */ = {
+		F158CF761CE4D4170006DACA /* BlackJackTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1074D9E1CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJackTests" */;
+			buildConfigurationList = F158CF8E1CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackTests" */;
 			buildPhases = (
-				F1074D831CE110AD00D53C1B /* Sources */,
-				F1074D841CE110AD00D53C1B /* Frameworks */,
-				F1074D851CE110AD00D53C1B /* Resources */,
+				F158CF731CE4D4170006DACA /* Sources */,
+				F158CF741CE4D4170006DACA /* Frameworks */,
+				F158CF751CE4D4170006DACA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1074D891CE110AD00D53C1B /* PBXTargetDependency */,
+				F158CF791CE4D4170006DACA /* PBXTargetDependency */,
 			);
 			name = BlackJackTests;
 			productName = BlackJackTests;
-			productReference = F1074D871CE110AD00D53C1B /* BlackJackTests.xctest */;
+			productReference = F158CF771CE4D4170006DACA /* BlackJackTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F1074D911CE110AD00D53C1B /* BlackJackUITests */ = {
+		F158CF811CE4D4170006DACA /* BlackJackUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1074DA11CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJackUITests" */;
+			buildConfigurationList = F158CF911CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackUITests" */;
 			buildPhases = (
-				F1074D8E1CE110AD00D53C1B /* Sources */,
-				F1074D8F1CE110AD00D53C1B /* Frameworks */,
-				F1074D901CE110AD00D53C1B /* Resources */,
+				F158CF7E1CE4D4170006DACA /* Sources */,
+				F158CF7F1CE4D4170006DACA /* Frameworks */,
+				F158CF801CE4D4170006DACA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1074D941CE110AD00D53C1B /* PBXTargetDependency */,
+				F158CF841CE4D4170006DACA /* PBXTargetDependency */,
 			);
 			name = BlackJackUITests;
 			productName = BlackJackUITests;
-			productReference = F1074D921CE110AD00D53C1B /* BlackJackUITests.xctest */;
+			productReference = F158CF821CE4D4170006DACA /* BlackJackUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1074D661CE110AD00D53C1B /* Project object */ = {
+		F158CF581CE4D4160006DACA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = B3Ingesup;
 				TargetAttributes = {
-					F1074D6D1CE110AD00D53C1B = {
+					F158CF5F1CE4D4160006DACA = {
 						CreatedOnToolsVersion = 7.2;
 					};
-					F1074D861CE110AD00D53C1B = {
+					F158CF761CE4D4170006DACA = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = F1074D6D1CE110AD00D53C1B;
+						TestTargetID = F158CF5F1CE4D4160006DACA;
 					};
-					F1074D911CE110AD00D53C1B = {
+					F158CF811CE4D4170006DACA = {
 						CreatedOnToolsVersion = 7.2;
-						TestTargetID = F1074D6D1CE110AD00D53C1B;
+						TestTargetID = F158CF5F1CE4D4160006DACA;
 					};
 				};
 			};
-			buildConfigurationList = F1074D691CE110AD00D53C1B /* Build configuration list for PBXProject "BlackJack" */;
+			buildConfigurationList = F158CF5B1CE4D4160006DACA /* Build configuration list for PBXProject "BlackJack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F1074D651CE110AD00D53C1B;
-			productRefGroup = F1074D6F1CE110AD00D53C1B /* Products */;
+			mainGroup = F158CF571CE4D4160006DACA;
+			productRefGroup = F158CF611CE4D4160006DACA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1074D6D1CE110AD00D53C1B /* BlackJack */,
-				F1074D861CE110AD00D53C1B /* BlackJackTests */,
-				F1074D911CE110AD00D53C1B /* BlackJackUITests */,
+				F158CF5F1CE4D4160006DACA /* BlackJack */,
+				F158CF761CE4D4170006DACA /* BlackJackTests */,
+				F158CF811CE4D4170006DACA /* BlackJackUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F1074D6C1CE110AD00D53C1B /* Resources */ = {
+		F158CF5E1CE4D4160006DACA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1074D811CE110AD00D53C1B /* LaunchScreen.storyboard in Resources */,
-				F1074D7E1CE110AD00D53C1B /* Assets.xcassets in Resources */,
-				F1074D7C1CE110AD00D53C1B /* Main.storyboard in Resources */,
+				F158CF711CE4D4160006DACA /* LaunchScreen.storyboard in Resources */,
+				F158CF6E1CE4D4160006DACA /* Assets.xcassets in Resources */,
+				F158CF691CE4D4160006DACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D851CE110AD00D53C1B /* Resources */ = {
+		F158CF751CE4D4170006DACA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D901CE110AD00D53C1B /* Resources */ = {
+		F158CF801CE4D4170006DACA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F1074D6A1CE110AD00D53C1B /* Sources */ = {
+		F158CF5C1CE4D4160006DACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1074D751CE110AD00D53C1B /* BlackJack.xcdatamodeld in Sources */,
-				F1074D721CE110AD00D53C1B /* AppDelegate.swift in Sources */,
-				F1074D771CE110AD00D53C1B /* MasterViewController.swift in Sources */,
-				F1074D791CE110AD00D53C1B /* DetailViewController.swift in Sources */,
+				F158CF6C1CE4D4160006DACA /* BlackJack.xcdatamodeld in Sources */,
+				F158CF661CE4D4160006DACA /* ViewController.swift in Sources */,
+				F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D831CE110AD00D53C1B /* Sources */ = {
+		F158CF731CE4D4170006DACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1074D8C1CE110AD00D53C1B /* BlackJackTests.swift in Sources */,
+				F158CF7C1CE4D4170006DACA /* BlackJackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1074D8E1CE110AD00D53C1B /* Sources */ = {
+		F158CF7E1CE4D4170006DACA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1074D971CE110AD00D53C1B /* BlackJackUITests.swift in Sources */,
+				F158CF871CE4D4170006DACA /* BlackJackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F1074D891CE110AD00D53C1B /* PBXTargetDependency */ = {
+		F158CF791CE4D4170006DACA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1074D6D1CE110AD00D53C1B /* BlackJack */;
-			targetProxy = F1074D881CE110AD00D53C1B /* PBXContainerItemProxy */;
+			target = F158CF5F1CE4D4160006DACA /* BlackJack */;
+			targetProxy = F158CF781CE4D4170006DACA /* PBXContainerItemProxy */;
 		};
-		F1074D941CE110AD00D53C1B /* PBXTargetDependency */ = {
+		F158CF841CE4D4170006DACA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F1074D6D1CE110AD00D53C1B /* BlackJack */;
-			targetProxy = F1074D931CE110AD00D53C1B /* PBXContainerItemProxy */;
+			target = F158CF5F1CE4D4160006DACA /* BlackJack */;
+			targetProxy = F158CF831CE4D4170006DACA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F1074D7A1CE110AD00D53C1B /* Main.storyboard */ = {
+		F158CF671CE4D4160006DACA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1074D7B1CE110AD00D53C1B /* Base */,
+				F158CF681CE4D4160006DACA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F1074D7F1CE110AD00D53C1B /* LaunchScreen.storyboard */ = {
+		F158CF6F1CE4D4160006DACA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F1074D801CE110AD00D53C1B /* Base */,
+				F158CF701CE4D4160006DACA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F1074D991CE110AD00D53C1B /* Debug */ = {
+		F158CF891CE4D4170006DACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		F1074D9A1CE110AD00D53C1B /* Release */ = {
+		F158CF8A1CE4D4170006DACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,7 +399,7 @@
 			};
 			name = Release;
 		};
-		F1074D9C1CE110AD00D53C1B /* Debug */ = {
+		F158CF8C1CE4D4170006DACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,7 +410,7 @@
 			};
 			name = Debug;
 		};
-		F1074D9D1CE110AD00D53C1B /* Release */ = {
+		F158CF8D1CE4D4170006DACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -425,7 +421,7 @@
 			};
 			name = Release;
 		};
-		F1074D9F1CE110AD00D53C1B /* Debug */ = {
+		F158CF8F1CE4D4170006DACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -437,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		F1074DA01CE110AD00D53C1B /* Release */ = {
+		F158CF901CE4D4170006DACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -449,7 +445,7 @@
 			};
 			name = Release;
 		};
-		F1074DA21CE110AD00D53C1B /* Debug */ = {
+		F158CF921CE4D4170006DACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BlackJackUITests/Info.plist;
@@ -461,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		F1074DA31CE110AD00D53C1B /* Release */ = {
+		F158CF931CE4D4170006DACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = BlackJackUITests/Info.plist;
@@ -476,53 +472,53 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1074D691CE110AD00D53C1B /* Build configuration list for PBXProject "BlackJack" */ = {
+		F158CF5B1CE4D4160006DACA /* Build configuration list for PBXProject "BlackJack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1074D991CE110AD00D53C1B /* Debug */,
-				F1074D9A1CE110AD00D53C1B /* Release */,
+				F158CF891CE4D4170006DACA /* Debug */,
+				F158CF8A1CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1074D9B1CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJack" */ = {
+		F158CF8B1CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1074D9C1CE110AD00D53C1B /* Debug */,
-				F1074D9D1CE110AD00D53C1B /* Release */,
+				F158CF8C1CE4D4170006DACA /* Debug */,
+				F158CF8D1CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F1074D9E1CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
+		F158CF8E1CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1074D9F1CE110AD00D53C1B /* Debug */,
-				F1074DA01CE110AD00D53C1B /* Release */,
+				F158CF8F1CE4D4170006DACA /* Debug */,
+				F158CF901CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		F1074DA11CE110AD00D53C1B /* Build configuration list for PBXNativeTarget "BlackJackUITests" */ = {
+		F158CF911CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1074DA21CE110AD00D53C1B /* Debug */,
-				F1074DA31CE110AD00D53C1B /* Release */,
+				F158CF921CE4D4170006DACA /* Debug */,
+				F158CF931CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F1074D731CE110AD00D53C1B /* BlackJack.xcdatamodeld */ = {
+		F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F1074D741CE110AD00D53C1B /* BlackJack.xcdatamodel */,
+				F158CF6B1CE4D4160006DACA /* BlackJack.xcdatamodel */,
 			);
-			currentVersion = F1074D741CE110AD00D53C1B /* BlackJack.xcdatamodel */;
+			currentVersion = F158CF6B1CE4D4160006DACA /* BlackJack.xcdatamodel */;
 			path = BlackJack.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = F1074D661CE110AD00D53C1B /* Project object */;
+	rootObject = F158CF581CE4D4160006DACA /* Project object */;
 }

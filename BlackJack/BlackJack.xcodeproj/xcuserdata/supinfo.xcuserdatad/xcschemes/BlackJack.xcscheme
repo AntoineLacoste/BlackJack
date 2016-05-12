@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1074D6D1CE110AD00D53C1B"
+               BlueprintIdentifier = "F158CF5F1CE4D4160006DACA"
                BuildableName = "BlackJack.app"
                BlueprintName = "BlackJack"
                ReferencedContainer = "container:BlackJack.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1074D861CE110AD00D53C1B"
+               BlueprintIdentifier = "F158CF761CE4D4170006DACA"
                BuildableName = "BlackJackTests.xctest"
                BlueprintName = "BlackJackTests"
                ReferencedContainer = "container:BlackJack.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1074D911CE110AD00D53C1B"
+               BlueprintIdentifier = "F158CF811CE4D4170006DACA"
                BuildableName = "BlackJackUITests.xctest"
                BlueprintName = "BlackJackUITests"
                ReferencedContainer = "container:BlackJack.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1074D6D1CE110AD00D53C1B"
+            BlueprintIdentifier = "F158CF5F1CE4D4160006DACA"
             BuildableName = "BlackJack.app"
             BlueprintName = "BlackJack"
             ReferencedContainer = "container:BlackJack.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1074D6D1CE110AD00D53C1B"
+            BlueprintIdentifier = "F158CF5F1CE4D4160006DACA"
             BuildableName = "BlackJack.app"
             BlueprintName = "BlackJack"
             ReferencedContainer = "container:BlackJack.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1074D6D1CE110AD00D53C1B"
+            BlueprintIdentifier = "F158CF5F1CE4D4160006DACA"
             BuildableName = "BlackJack.app"
             BlueprintName = "BlackJack"
             ReferencedContainer = "container:BlackJack.xcodeproj">
