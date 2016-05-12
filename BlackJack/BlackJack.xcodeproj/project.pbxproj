@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10222651CE4EA1300C25F7D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222641CE4EA1300C25F7D /* Token.swift */; };
+		F10222671CE4EB3800C25F7D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222661CE4EB3800C25F7D /* Player.swift */; };
+		F10222691CE4ECD900C25F7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222681CE4ECD900C25F7D /* Card.swift */; };
+		F102226B1CE4ECF300C25F7D /* CardValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226A1CE4ECF300C25F7D /* CardValue.swift */; };
+		F102226D1CE4EF5A00C25F7D /* CardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226C1CE4EF5A00C25F7D /* CardSuit.swift */; };
+		F102226F1CE4F3BA00C25F7D /* CardShoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226E1CE4F3BA00C25F7D /* CardShoe.swift */; };
+		F10222711CE502A900C25F7D /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222701CE502A900C25F7D /* Dealer.swift */; };
+		F10222731CE5032000C25F7D /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222721CE5032000C25F7D /* PlayerAction.swift */; };
 		F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF631CE4D4160006DACA /* AppDelegate.swift */; };
 		F158CF661CE4D4160006DACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF651CE4D4160006DACA /* ViewController.swift */; };
 		F158CF691CE4D4160006DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158CF671CE4D4160006DACA /* Main.storyboard */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F10222641CE4EA1300C25F7D /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F10222661CE4EB3800C25F7D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F10222681CE4ECD900C25F7D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F102226A1CE4ECF300C25F7D /* CardValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValue.swift; sourceTree = "<group>"; };
+		F102226C1CE4EF5A00C25F7D /* CardSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSuit.swift; sourceTree = "<group>"; };
+		F102226E1CE4F3BA00C25F7D /* CardShoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardShoe.swift; sourceTree = "<group>"; };
+		F10222701CE502A900C25F7D /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
+		F10222721CE5032000C25F7D /* PlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
 		F158CF601CE4D4160006DACA /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F158CF631CE4D4160006DACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F158CF651CE4D4160006DACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +122,14 @@
 				F158CF6F1CE4D4160006DACA /* LaunchScreen.storyboard */,
 				F158CF721CE4D4160006DACA /* Info.plist */,
 				F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */,
+				F10222641CE4EA1300C25F7D /* Token.swift */,
+				F10222661CE4EB3800C25F7D /* Player.swift */,
+				F10222681CE4ECD900C25F7D /* Card.swift */,
+				F102226A1CE4ECF300C25F7D /* CardValue.swift */,
+				F102226C1CE4EF5A00C25F7D /* CardSuit.swift */,
+				F102226E1CE4F3BA00C25F7D /* CardShoe.swift */,
+				F10222701CE502A900C25F7D /* Dealer.swift */,
+				F10222721CE5032000C25F7D /* PlayerAction.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -259,9 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F102226D1CE4EF5A00C25F7D /* CardSuit.swift in Sources */,
 				F158CF6C1CE4D4160006DACA /* BlackJack.xcdatamodeld in Sources */,
+				F10222731CE5032000C25F7D /* PlayerAction.swift in Sources */,
+				F10222691CE4ECD900C25F7D /* Card.swift in Sources */,
 				F158CF661CE4D4160006DACA /* ViewController.swift in Sources */,
 				F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */,
+				F10222651CE4EA1300C25F7D /* Token.swift in Sources */,
+				F102226F1CE4F3BA00C25F7D /* CardShoe.swift in Sources */,
+				F102226B1CE4ECF300C25F7D /* CardValue.swift in Sources */,
+				F10222711CE502A900C25F7D /* Dealer.swift in Sources */,
+				F10222671CE4EB3800C25F7D /* Player.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +520,7 @@
 				F158CF8D1CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F158CF8E1CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +529,7 @@
 				F158CF901CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F158CF911CE4D4170006DACA /* Build configuration list for PBXNativeTarget "BlackJackUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +538,7 @@
 				F158CF931CE4D4170006DACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
