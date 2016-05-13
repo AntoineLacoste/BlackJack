@@ -9,10 +9,10 @@
 import Foundation
 
 enum CardSuit{
-    case spades
-    case hearts
-    case diamonds
-    case clubs
+    case SPADES
+    case HEARTS
+    case DIAMONDS
+    case CLUBS
     
-    static let allValues = [spades, hearts, diamonds, clubs]
+    static let allValues = [SPADES, HEARTS, DIAMONDS, CLUBS]
 }

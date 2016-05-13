@@ -9,22 +9,23 @@
 import Foundation
 
 enum CardValue: Int{
-    case As=1
-    case two
-    case tree
-    case four
-    case five
-    case six
-    case seven
-    case eight
-    case nine
-    case ten
-    case jack
-    case queen
-    case king
+    case AS=1
+    case TWO
+    case TREE
+    case FOUR
+    case FIVE
+    case SIX
+    case SEVEN
+    case EIGHT
+    case NINE
+    case TEN
+    case JACK
+    case QUEEN
+    case KING
     
-    static let allValues = [As, two, tree, four, five, six, seven, eight, nine, ten, jack, queen, king]
+    static let allValues = [AS, TWO, TREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING]
     
+    //black jack value
     var BJValue: Int{
         if self.rawValue == 1{
             return 11

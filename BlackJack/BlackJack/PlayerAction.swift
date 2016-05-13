@@ -9,8 +9,10 @@
 import Foundation
 
 enum PlayerAction{
-    case separate
-    case draw
-    case surrender
-    case insurance
+    case SEPARATE
+    case DRAW
+    case SURRENDER
+    case INSURANCE
+    case DOUBLE
+    case STAND
 }

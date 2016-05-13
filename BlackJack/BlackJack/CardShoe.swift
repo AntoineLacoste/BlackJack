@@ -13,11 +13,14 @@ class CardShoe{
     
     init(){
         self.cards = [Card]()
-        self.cards = self.getAllCards()
+    }
+    
+    func resetShoe(){
+        self.cards = self.resetCards()
         self.shuffleCards()
     }
     
-    func getAllCards() -> [Card]{
+    private func resetCards() -> [Card]{
         var cards = [Card]()
         
         for _ in 1...6{
@@ -31,7 +34,7 @@ class CardShoe{
         return cards
     }
     
-    func shuffleCards(){        
+    private func shuffleCards(){
         for _ in 0...5000{
             let indexSrc = Int(arc4random_uniform(312))
             let indexDst = Int(arc4random_uniform(312))
@@ -41,6 +44,34 @@ class CardShoe{
             self.cards[indexSrc] = value
             
         }
-    }    
+    }
     
+    func addBlueCard(blueCardIndex : Int){
+        var cards = [Card]()
+        
+        for index in blueCardIndex...311{
+            cards.append(self.cards[index])
+        }
+        
+        for index in 0...blueCardIndex-1{
+            cards.append(self.cards[index])
+        }
+        
+        self.cards = cards
+    }
+    
+    func addRedCard(redCardIndex : Int){
+        print("red card index : \(redCardIndex)")
+        self.cards.insert(Card(nil, nil, true), atIndex: redCardIndex)
+    }
+    
+    func drawCard() -> Card{
+        return self.cards.removeFirst()
+    }
+    
+    func burnCards(){
+        for _ in 0...4{
+            self.cards.removeFirst()
+        }
+    }
 }

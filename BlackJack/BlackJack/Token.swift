@@ -9,9 +9,9 @@
 import Foundation
 
 enum Token: Int{
-    case blue = 1
-    case green = 2
-    case red = 5
-    case black = 10
+    case BLUE = 1
+    case GREEN = 2
+    case RED = 5
+    case BLACK = 10
 }
 

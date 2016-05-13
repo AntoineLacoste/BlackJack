@@ -1,0 +1,49 @@
+//
+//  Hand.swift
+//  BlackJack
+//
+//  Created by Supinfo on 13/05/16.
+//  Copyright © 2016 B3Ingesup. All rights reserved.
+//
+
+import Foundation
+
+class Hand{
+    var cards : [Card]
+    
+    var BJValue : Int{
+        var val = 0
+        for card in self.cards{
+            val += card.BJValue
+        }
+        return val
+    }
+
+    init(){
+        self.cards = [Card]()
+    }
+    
+    func addCard(card : Card){
+        self.cards.append(card)
+    }
+    
+    func containsAS() -> Bool{
+        for card in self.cards{
+            if card.value!.rawValue == 1{
+                return true
+            }
+        }
+        
+        return false
+    }
+    
+    func canDouble() -> Bool{
+        for card in self.cards{
+            if (card.value!.rawValue >= 9 && card.value!.rawValue <= 11){
+                return true
+            }
+        }
+        
+        return false        
+    }
+}
