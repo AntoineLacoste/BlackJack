@@ -13,12 +13,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+    @IBAction func onClickButton(sender: AnyObject) {
         let dealer = Dealer()
         
         dealer.addPlayer(RandomPlayer(nickname: "roger1"))
         dealer.addPlayer(RandomPlayer(nickname: "roger2"))
         dealer.addPlayer(RandomPlayer(nickname: "roger3"))
         dealer.addPlayer(RandomPlayer(nickname: "roger4"))
+        
         dealer.shuffleShoe()
         var cards = [Int]()
         for index in 0...311{
@@ -34,12 +44,10 @@ class ViewController: UIViewController {
         print(cards)
         print(cards.count)
     }
+    @IBOutlet weak var playButton: UIButton!
+    
+    @IBOutlet weak var labelNbPlayer: UILabel!
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    @IBOutlet weak var nbPlayerTextField: UITextField!
 }
 

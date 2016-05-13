@@ -16,11 +16,11 @@ class CardShoe{
     }
     
     func resetShoe(){
-        self.cards = self.resetCards()
+        self.resetCards()
         self.shuffleCards()
     }
     
-    private func resetCards() -> [Card]{
+    func resetCards(){
         var cards = [Card]()
         
         for _ in 1...6{
@@ -31,10 +31,10 @@ class CardShoe{
             }
         }
         
-        return cards
+        self.cards = cards
     }
     
-    private func shuffleCards(){
+    func shuffleCards(){
         for _ in 0...5000{
             let indexSrc = Int(arc4random_uniform(312))
             let indexDst = Int(arc4random_uniform(312))

@@ -14,6 +14,7 @@
 		F102226F1CE4F3BA00C25F7D /* CardShoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226E1CE4F3BA00C25F7D /* CardShoe.swift */; };
 		F10222711CE502A900C25F7D /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222701CE502A900C25F7D /* Dealer.swift */; };
 		F10222731CE5032000C25F7D /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222721CE5032000C25F7D /* PlayerAction.swift */; };
+		F106764F1CE66BE40044040F /* BlackJackMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F106764E1CE66BE40044040F /* BlackJackMain.xib */; };
 		F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF631CE4D4160006DACA /* AppDelegate.swift */; };
 		F158CF661CE4D4160006DACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF651CE4D4160006DACA /* ViewController.swift */; };
 		F158CF691CE4D4160006DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158CF671CE4D4160006DACA /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		F102226E1CE4F3BA00C25F7D /* CardShoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CardShoe.swift; sourceTree = "<group>"; };
 		F10222701CE502A900C25F7D /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		F10222721CE5032000C25F7D /* PlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
+		F106764E1CE66BE40044040F /* BlackJackMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlackJackMain.xib; sourceTree = "<group>"; };
 		F158CF601CE4D4160006DACA /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F158CF631CE4D4160006DACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F158CF651CE4D4160006DACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				F10222721CE5032000C25F7D /* PlayerAction.swift */,
 				F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */,
 				F10222641CE4EA1300C25F7D /* Token.swift */,
+				F106764E1CE66BE40044040F /* BlackJackMain.xib */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F158CF711CE4D4160006DACA /* LaunchScreen.storyboard in Resources */,
+				F106764F1CE66BE40044040F /* BlackJackMain.xib in Resources */,
 				F158CF6E1CE4D4160006DACA /* Assets.xcassets in Resources */,
 				F158CF691CE4D4160006DACA /* Main.storyboard in Resources */,
 			);

@@ -34,6 +34,7 @@ class Dealer{
     
     func shuffleShoe(){        
         self.cardShoe = CardShoe()
+        self.cardShoe.resetCards()
         
         self.putBlueCard()
         self.addRedCard()
