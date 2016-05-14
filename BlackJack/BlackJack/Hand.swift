@@ -46,4 +46,12 @@ class Hand{
         
         return false        
     }
+    
+    func canSeparate() -> Bool{
+        if self.cards.count == 2 && self.cards[0].value == self.cards[1].value{
+            return true
+        }
+        
+        return false
+    }
 }

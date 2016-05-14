@@ -11,10 +11,9 @@ import Foundation
 class BlackJackPlayer{
     var nickname : String
     
-    var tokens : [(color : Token,number : Int)]
+    var pot : Pot
     
-    var currentBet : [(Token,Int)]
-    
+    var currentBet : Pot
     var hand : Hand
     
     var separatedHand : Hand?
@@ -32,8 +31,8 @@ class BlackJackPlayer{
     
     init(nickname : String){
         self.nickname = nickname
-        self.tokens = [(color : Token,number : Int)]()
-        self.currentBet = [(Token,Int)]()
+        self.pot = Pot(15, 15, 15, 15)
+        self.currentBet = Pot(0,0,0,0)
         self.hand = Hand()
         self.separatedHand = nil
         self.asAsTen = true
@@ -43,7 +42,7 @@ class BlackJackPlayer{
         fatalError("Method should be implemented")
     }
     
-    func bet() -> [(color : Token,number : Int)]{
+    func bet() -> Pot{
         fatalError("Method should be implemented")        
     }
     

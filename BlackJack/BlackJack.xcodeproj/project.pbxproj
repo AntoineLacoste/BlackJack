@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F10222651CE4EA1300C25F7D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222641CE4EA1300C25F7D /* Token.swift */; };
+		F10222651CE4EA1300C25F7D /* TokenColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222641CE4EA1300C25F7D /* TokenColor.swift */; };
 		F10222691CE4ECD900C25F7D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222681CE4ECD900C25F7D /* Card.swift */; };
 		F102226B1CE4ECF300C25F7D /* CardValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226A1CE4ECF300C25F7D /* CardValue.swift */; };
 		F102226D1CE4EF5A00C25F7D /* CardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102226C1CE4EF5A00C25F7D /* CardSuit.swift */; };
@@ -15,8 +15,11 @@
 		F10222711CE502A900C25F7D /* Dealer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222701CE502A900C25F7D /* Dealer.swift */; };
 		F10222731CE5032000C25F7D /* PlayerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10222721CE5032000C25F7D /* PlayerAction.swift */; };
 		F106764F1CE66BE40044040F /* BlackJackMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = F106764E1CE66BE40044040F /* BlackJackMain.xib */; };
+		F12F94631CE70C0000DA8E17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F94621CE70C0000DA8E17 /* GameViewController.swift */; };
+		F12F94651CE7101000DA8E17 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F94641CE7101000DA8E17 /* CardView.swift */; };
+		F12F94671CE71BA100DA8E17 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12F94661CE71BA100DA8E17 /* HandView.swift */; };
 		F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF631CE4D4160006DACA /* AppDelegate.swift */; };
-		F158CF661CE4D4160006DACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF651CE4D4160006DACA /* ViewController.swift */; };
+		F158CF661CE4D4160006DACA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F158CF651CE4D4160006DACA /* HomeViewController.swift */; };
 		F158CF691CE4D4160006DACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F158CF671CE4D4160006DACA /* Main.storyboard */; };
 		F158CF6C1CE4D4160006DACA /* BlackJack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */; };
 		F158CF6E1CE4D4160006DACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F158CF6D1CE4D4160006DACA /* Assets.xcassets */; };
@@ -26,6 +29,11 @@
 		F15ABEED1CE5CA7000915353 /* RandomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */; };
 		F15ABEEF1CE5CE2400915353 /* BlackJackPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */; };
 		F15ABEF11CE5FEFC00915353 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEF01CE5FEFC00915353 /* Hand.swift */; };
+		F1FFA9071CE72FE200A951FA /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA9061CE72FE200A951FA /* TokenView.swift */; };
+		F1FFA90C1CE731F700A951FA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA90B1CE731F700A951FA /* PlayerView.swift */; };
+		F1FFA90E1CE732E400A951FA /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA90D1CE732E400A951FA /* PotView.swift */; };
+		F1FFA9101CE7344900A951FA /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA90F1CE7344900A951FA /* Token.swift */; };
+		F1FFA9121CE73D3900A951FA /* Pot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA9111CE73D3900A951FA /* Pot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F10222641CE4EA1300C25F7D /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F10222641CE4EA1300C25F7D /* TokenColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenColor.swift; sourceTree = "<group>"; };
 		F10222681CE4ECD900C25F7D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F102226A1CE4ECF300C25F7D /* CardValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardValue.swift; sourceTree = "<group>"; };
 		F102226C1CE4EF5A00C25F7D /* CardSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSuit.swift; sourceTree = "<group>"; };
@@ -54,9 +62,12 @@
 		F10222701CE502A900C25F7D /* Dealer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dealer.swift; sourceTree = "<group>"; };
 		F10222721CE5032000C25F7D /* PlayerAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerAction.swift; sourceTree = "<group>"; };
 		F106764E1CE66BE40044040F /* BlackJackMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlackJackMain.xib; sourceTree = "<group>"; };
+		F12F94621CE70C0000DA8E17 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F12F94641CE7101000DA8E17 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F12F94661CE71BA100DA8E17 /* HandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		F158CF601CE4D4160006DACA /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F158CF631CE4D4160006DACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F158CF651CE4D4160006DACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F158CF651CE4D4160006DACA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F158CF681CE4D4160006DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F158CF6B1CE4D4160006DACA /* BlackJack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackJack.xcdatamodel; sourceTree = "<group>"; };
 		F158CF6D1CE4D4160006DACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +82,11 @@
 		F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomPlayer.swift; sourceTree = "<group>"; };
 		F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackJackPlayer.swift; sourceTree = "<group>"; };
 		F15ABEF01CE5FEFC00915353 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		F1FFA9061CE72FE200A951FA /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
+		F1FFA90B1CE731F700A951FA /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		F1FFA90D1CE732E400A951FA /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
+		F1FFA90F1CE7344900A951FA /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F1FFA9111CE73D3900A951FA /* Pot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,23 +137,15 @@
 		F158CF621CE4D4160006DACA /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
-				F158CF631CE4D4160006DACA /* AppDelegate.swift */,
-				F158CF651CE4D4160006DACA /* ViewController.swift */,
+				F1FFA90A1CE7301D00A951FA /* Model */,
+				F1FFA9091CE7300F00A951FA /* Controller */,
+				F1FFA9081CE72FE900A951FA /* View */,
 				F158CF671CE4D4160006DACA /* Main.storyboard */,
 				F158CF6D1CE4D4160006DACA /* Assets.xcassets */,
 				F158CF6F1CE4D4160006DACA /* LaunchScreen.storyboard */,
 				F158CF721CE4D4160006DACA /* Info.plist */,
 				F158CF6A1CE4D4160006DACA /* BlackJack.xcdatamodeld */,
-				F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */,
-				F10222681CE4ECD900C25F7D /* Card.swift */,
-				F102226E1CE4F3BA00C25F7D /* CardShoe.swift */,
-				F102226C1CE4EF5A00C25F7D /* CardSuit.swift */,
-				F102226A1CE4ECF300C25F7D /* CardValue.swift */,
-				F10222701CE502A900C25F7D /* Dealer.swift */,
-				F15ABEF01CE5FEFC00915353 /* Hand.swift */,
-				F10222721CE5032000C25F7D /* PlayerAction.swift */,
-				F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */,
-				F10222641CE4EA1300C25F7D /* Token.swift */,
+				F158CF631CE4D4160006DACA /* AppDelegate.swift */,
 				F106764E1CE66BE40044040F /* BlackJackMain.xib */,
 			);
 			path = BlackJack;
@@ -159,6 +167,46 @@
 				F158CF881CE4D4170006DACA /* Info.plist */,
 			);
 			path = BlackJackUITests;
+			sourceTree = "<group>";
+		};
+		F1FFA9081CE72FE900A951FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F12F94641CE7101000DA8E17 /* CardView.swift */,
+				F12F94661CE71BA100DA8E17 /* HandView.swift */,
+				F1FFA9061CE72FE200A951FA /* TokenView.swift */,
+				F1FFA90B1CE731F700A951FA /* PlayerView.swift */,
+				F1FFA90D1CE732E400A951FA /* PotView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F1FFA9091CE7300F00A951FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F158CF651CE4D4160006DACA /* HomeViewController.swift */,
+				F12F94621CE70C0000DA8E17 /* GameViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F1FFA90A1CE7301D00A951FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */,
+				F10222681CE4ECD900C25F7D /* Card.swift */,
+				F102226E1CE4F3BA00C25F7D /* CardShoe.swift */,
+				F102226C1CE4EF5A00C25F7D /* CardSuit.swift */,
+				F102226A1CE4ECF300C25F7D /* CardValue.swift */,
+				F10222701CE502A900C25F7D /* Dealer.swift */,
+				F15ABEF01CE5FEFC00915353 /* Hand.swift */,
+				F10222721CE5032000C25F7D /* PlayerAction.swift */,
+				F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */,
+				F10222641CE4EA1300C25F7D /* TokenColor.swift */,
+				F1FFA90F1CE7344900A951FA /* Token.swift */,
+				F1FFA9111CE73D3900A951FA /* Pot.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,19 +341,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12F94631CE70C0000DA8E17 /* GameViewController.swift in Sources */,
 				F15ABEED1CE5CA7000915353 /* RandomPlayer.swift in Sources */,
+				F1FFA90E1CE732E400A951FA /* PotView.swift in Sources */,
 				F15ABEEF1CE5CE2400915353 /* BlackJackPlayer.swift in Sources */,
+				F1FFA9071CE72FE200A951FA /* TokenView.swift in Sources */,
 				F102226D1CE4EF5A00C25F7D /* CardSuit.swift in Sources */,
+				F12F94651CE7101000DA8E17 /* CardView.swift in Sources */,
 				F158CF6C1CE4D4160006DACA /* BlackJack.xcdatamodeld in Sources */,
 				F15ABEF11CE5FEFC00915353 /* Hand.swift in Sources */,
 				F10222731CE5032000C25F7D /* PlayerAction.swift in Sources */,
+				F1FFA90C1CE731F700A951FA /* PlayerView.swift in Sources */,
+				F1FFA9101CE7344900A951FA /* Token.swift in Sources */,
+				F1FFA9121CE73D3900A951FA /* Pot.swift in Sources */,
 				F10222691CE4ECD900C25F7D /* Card.swift in Sources */,
-				F158CF661CE4D4160006DACA /* ViewController.swift in Sources */,
+				F158CF661CE4D4160006DACA /* HomeViewController.swift in Sources */,
 				F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */,
-				F10222651CE4EA1300C25F7D /* Token.swift in Sources */,
+				F10222651CE4EA1300C25F7D /* TokenColor.swift in Sources */,
 				F102226F1CE4F3BA00C25F7D /* CardShoe.swift in Sources */,
 				F102226B1CE4ECF300C25F7D /* CardValue.swift in Sources */,
 				F10222711CE502A900C25F7D /* Dealer.swift in Sources */,
+				F12F94671CE71BA100DA8E17 /* HandView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
