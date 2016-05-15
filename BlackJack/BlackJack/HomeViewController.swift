@@ -27,5 +27,8 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var labelNbPlayer: UILabel!
 
     @IBOutlet weak var nbPlayerTextField: UITextField!
+    
+    
+    
 }
 

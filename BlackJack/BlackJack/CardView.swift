@@ -12,8 +12,8 @@ class CardView: UIView  {
     
     var card : Card?
     
-    let rowValue : Int = 25
-    let columnValue : Int = 125
+    static let rowValue : Int = 25
+    static let columnValue : Int = 125
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)        
@@ -21,7 +21,7 @@ class CardView: UIView  {
     
     init(card : Card,_ cardNumber : Int) {
         self.card = card
-        super.init(frame: CGRect(x: 0, y: cardNumber*self.rowValue, width: self.columnValue, height: self.columnValue))
+        super.init(frame: CGRect(x: 0, y: cardNumber * CardView.rowValue, width: CardView.columnValue, height: CardView.columnValue))
         
         self.refresh(card)
     }
@@ -33,7 +33,7 @@ class CardView: UIView  {
         
         self.card = card
         
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: self.columnValue, height: self.columnValue))
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: CardView.columnValue, height: CardView.columnValue))
         let labelStr = "\(self.card!.value!) \(self.card!.suit!)"
         label.text = labelStr
         label.font = label.font.fontWithSize(14)

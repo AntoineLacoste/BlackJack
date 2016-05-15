@@ -40,7 +40,7 @@ class RandomPlayer : BlackJackPlayer{
         }
     }
     
-    override func bet() -> Pot{
+    override func bet(){
         var nbBlack = 0
         var nbGreen = 0
         var nbBlue  = 0
@@ -54,10 +54,10 @@ class RandomPlayer : BlackJackPlayer{
                 case .GREEN :
                     nbGreen = token.number
                 
-                case .BLUE :
+                case .BLUE  :
                     nbBlue  = token.number
                 
-                case .RED :
+                case .RED   :
                     nbRed   = token.number
             }
         }
@@ -68,11 +68,17 @@ class RandomPlayer : BlackJackPlayer{
         //Bet at least one blue token
         let tokenBlueBetted  = Int(arc4random_uniform(UInt32(nbBlue-1)))+1
         
-        return Pot(tokenBlueBetted, tokenRedBetted, tokenGreenBetted, tokenBlackBetted)
+        let bet = Pot(tokenBlueBetted, tokenRedBetted, tokenGreenBetted, tokenBlackBetted)
+        self.pot.minusPot(bet)
+        self.currentBet = bet
     }
     
     override func putBlueCard() -> Int{
         return Int(arc4random_uniform(312))
+    }
+    
+    override func resetBet() {
+        self.currentBet = Pot(0,0,0,0)
     }
     
 }

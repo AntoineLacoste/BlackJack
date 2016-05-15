@@ -20,6 +20,14 @@ class Dealer{
     
     var resetShoeOnThisTurn : Bool
     
+    var currentBJPlayer : BlackJackPlayer{
+        return self.players[self.currentPlayer]
+    }
+    
+    var realPlayer : BlackJackPlayer{
+        return self.players[0]
+    }
+    
     init(){
         self.players = [BlackJackPlayer]()
         self.hand = Hand()
@@ -34,7 +42,7 @@ class Dealer{
     
     func shuffleShoe(){        
         self.cardShoe = CardShoe()
-        self.cardShoe.resetCards()
+        self.cardShoe.resetShoe()
         
         self.putBlueCard()
         self.addRedCard()
@@ -56,7 +64,7 @@ class Dealer{
     
     func startTurn(){
         if self.resetShoeOnThisTurn{
-            self.cardShoe.resetShoe()
+            self.shuffleShoe()
             self.cardShoe.burnCards()
             self.dealStartCards()
             self.resetShoeOnThisTurn = false
@@ -92,6 +100,26 @@ class Dealer{
         }
         self.hand.addCard(self.cardShoe.drawCard())
         
+    }
+    
+    func nextPlayer(){
+        self.currentPlayer = (self.currentPlayer + 1) % 4
+    }
+    
+    func playerSurrender(player : BlackJackPlayer){
+        player.stillAlive = false
+    }
+    
+    func playerInsurrance(player : BlackJackPlayer){
+        player.insurrance = true
+    }
+    
+    func playerDouble(player : BlackJackPlayer){
+        player.doubleBet()
+    }
+    
+    func playerStand(player : BlackJackPlayer){
+        self.currentPlayer += 1
     }
     
 }

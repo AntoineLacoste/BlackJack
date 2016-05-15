@@ -8,35 +8,38 @@
 
 import UIKit
 
-class PotView: UIView  {
+class BetView: UIView  {
     
     var tokensView : [TokenView]?
-    var pot        : Pot?
+    var bet        : Pot?
     
-    static let rowValue : Int = 35
-    static let columnValue : Int = 250
+    static let rowValue    : Int = 50
+    static let columnValue : Int = 150
+    static let marginTop   : Int = {
+        return 100 + PlayerView.nameHeight
+    }()
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    init(pot : Pot){
-        super.init(frame: CGRect(x: 0, y: PlayerView.nameHeight, width: PotView.columnValue, height: PotView.rowValue))
-        self.refresh(pot)
+    init(bet : Pot,_ nbCardInHandOverTwo : Int){
+        super.init(frame: CGRect(x: 0, y: BetView.marginTop + nbCardInHandOverTwo * CardView.rowValue, width: BetView.columnValue, height: BetView.rowValue))
+        self.refresh(bet)
     }
     
-    func refresh(pot : Pot){
+    func refresh(bet : Pot){
         
         for view in self.subviews {
             view.removeFromSuperview()
         }
         
         self.tokensView = [TokenView]()
-        self.pot = pot
+        self.bet = bet
         
-        for index in 0..<pot.tokens.count{
+        for index in 0..<bet.tokens.count{
             
-            let token = self.pot!.tokens[index]
+            let token = self.bet!.tokens[index]
             let tokenView = TokenView(token, index)
             self.tokensView!.append(tokenView)
             

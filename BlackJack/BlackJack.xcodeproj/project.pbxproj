@@ -29,6 +29,7 @@
 		F15ABEED1CE5CA7000915353 /* RandomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */; };
 		F15ABEEF1CE5CE2400915353 /* BlackJackPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */; };
 		F15ABEF11CE5FEFC00915353 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15ABEF01CE5FEFC00915353 /* Hand.swift */; };
+		F1F84CB21CE89002006CBA4A /* BetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F84CB11CE89002006CBA4A /* BetView.swift */; };
 		F1FFA9071CE72FE200A951FA /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA9061CE72FE200A951FA /* TokenView.swift */; };
 		F1FFA90C1CE731F700A951FA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA90B1CE731F700A951FA /* PlayerView.swift */; };
 		F1FFA90E1CE732E400A951FA /* PotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FFA90D1CE732E400A951FA /* PotView.swift */; };
@@ -82,6 +83,7 @@
 		F15ABEEC1CE5CA7000915353 /* RandomPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomPlayer.swift; sourceTree = "<group>"; };
 		F15ABEEE1CE5CE2400915353 /* BlackJackPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackJackPlayer.swift; sourceTree = "<group>"; };
 		F15ABEF01CE5FEFC00915353 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		F1F84CB11CE89002006CBA4A /* BetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetView.swift; sourceTree = "<group>"; };
 		F1FFA9061CE72FE200A951FA /* TokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
 		F1FFA90B1CE731F700A951FA /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		F1FFA90D1CE732E400A951FA /* PotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PotView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				F1FFA9061CE72FE200A951FA /* TokenView.swift */,
 				F1FFA90B1CE731F700A951FA /* PlayerView.swift */,
 				F1FFA90D1CE732E400A951FA /* PotView.swift */,
+				F1F84CB11CE89002006CBA4A /* BetView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				F1FFA9101CE7344900A951FA /* Token.swift in Sources */,
 				F1FFA9121CE73D3900A951FA /* Pot.swift in Sources */,
 				F10222691CE4ECD900C25F7D /* Card.swift in Sources */,
+				F1F84CB21CE89002006CBA4A /* BetView.swift in Sources */,
 				F158CF661CE4D4160006DACA /* HomeViewController.swift in Sources */,
 				F158CF641CE4D4160006DACA /* AppDelegate.swift in Sources */,
 				F10222651CE4EA1300C25F7D /* TokenColor.swift in Sources */,
