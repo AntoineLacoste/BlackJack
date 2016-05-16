@@ -16,16 +16,12 @@ class RandomPlayer : BlackJackPlayer{
     
     override func playTurn(dealerHand: Hand) -> PlayerAction{
         
-        if self.hand.containsAS() && self.BJValue > 21 && self.asAsTen{
-            self.asAsTen = false
+        if self.hand.containsAS() && self.BJValue > 21 && self.asAsEleven{
+            self.asAsEleven = false
         }
         
         if dealerHand.containsAS(){
             return .INSURANCE
-        }
-        
-        if self.hand.canSeparate(){
-            return .SEPARATE
         }
         
         if self.hand.canDouble(){

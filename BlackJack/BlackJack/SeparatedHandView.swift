@@ -8,9 +8,9 @@
 
 import UIKit
 
-class HandView: UIView  {
+class SeparatedHandView: UIView  {
     
-    var cardsView : [CardView]?
+    var separatedCardsView : [SeparatedCardView]?
     var hand      : Hand?
     
     static let rowValue : Int = 150
@@ -21,7 +21,7 @@ class HandView: UIView  {
     }
     
     init(hand : Hand){
-        super.init(frame: CGRect(x: 0, y: PotView.rowValue, width: HandView.columnValue, height: HandView.rowValue))
+        super.init(frame: CGRect(x: HandView.columnValue, y: PotView.rowValue, width: HandView.columnValue, height: HandView.rowValue))
         self.layoutMargins = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
         self.refresh(hand)
     }
@@ -32,14 +32,14 @@ class HandView: UIView  {
             view.removeFromSuperview()
         }
         
-        self.cardsView = [CardView]()
+        self.separatedCardsView = [SeparatedCardView]()
         self.hand     = hand
         
         for index in 0..<self.hand!.cards.count{
             let card = self.hand!.cards[index]
-            let cardView = CardView(card: card, index)
+            let cardView = SeparatedCardView(card: card, index)
             
-            self.cardsView!.append(cardView)
+            self.separatedCardsView!.append(cardView)
             
             self.addSubview(cardView)
         }

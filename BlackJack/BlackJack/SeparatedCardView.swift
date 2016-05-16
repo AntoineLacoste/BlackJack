@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CardView: UIView  {    
+class SeparatedCardView: UIView  {
     
     var card : Card?
     
@@ -16,7 +16,7 @@ class CardView: UIView  {
     static let columnValue : Int = 125
     
     required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)        
+        super.init(coder: aDecoder)
     }
     
     init(card : Card,_ cardNumber : Int) {
@@ -36,20 +36,19 @@ class CardView: UIView  {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: CardView.columnValue, height: CardView.columnValue))
         var labelStr = "\(self.card!.value!) "
         switch self.card!.suit!.toUnicode{
-            case 2660 :
-                labelStr += "\u{2660}"
-            case 2665:
-                labelStr += "\u{2665}"
-            case 2666:
-                labelStr += "\u{2666}"
-            default:
-                labelStr += "\u{2663}"
+        case 2660 :
+            labelStr += "\u{2660}"
+        case 2665:
+            labelStr += "\u{2665}"
+        case 2666:
+            labelStr += "\u{2666}"
+        default:
+            labelStr += "\u{2663}"
         }
-        
         label.text = labelStr
         label.font = label.font.fontWithSize(13)
         
         self.addSubview(label)
     }
-
+    
 }

@@ -12,6 +12,8 @@ class PlayerView: UIView  {
     
     var handView : HandView?
     
+    var separatedHandView : SeparatedHandView?
+    
     var potView : PotView?
     
     var betView : BetView?
@@ -74,29 +76,48 @@ class PlayerView: UIView  {
         let bet  = player.currentBet
         
         let labelName = UILabel(frame: CGRect(x: 0, y: 0, width: 250, height: PlayerView.nameHeight))
-        let labelStr = "\(self.player!.nickname)"
+        var labelStr = "\(self.player!.nickname) : \(self.player!.BJValue)"
+        if self.player!.BJValueSeparated != 0{
+            labelStr += "-\(self.player!.BJValueSeparated)"
+        }
         labelName.text = labelStr
         labelName.font = labelName.font.fontWithSize(18)
         
         
         self.handView = HandView(hand: hand)
+        if let separatedHand = player.separatedHand{
+            self.separatedHandView = SeparatedHandView(hand: separatedHand)
+        }
         self.potView  = PotView(pot: pot)
         
         var nbCardInHandOverTwo = 0
+        var cardSeparated       = 0
         
-        if hand.cards.count >= 3{
-            nbCardInHandOverTwo = hand.cards.count - 2
+        if let separatedHand = player.separatedHand{
+            self.separatedHandView = SeparatedHandView(hand: separatedHand)
+            cardSeparated = separatedHand.cards.count
+        }
+        
+        let cards = max(hand.cards.count, cardSeparated)
+        if cards >= 3{
+            nbCardInHandOverTwo = cards - 2
         }
         
         self.betView  = BetView(bet: bet, nbCardInHandOverTwo)
         
         self.potView!.refresh(pot)
         self.handView!.refresh(hand)
+        if let separatedHand = player.separatedHand{
+            self.separatedHandView!.refresh(separatedHand)
+        }
         self.betView!.refresh(bet)
         
         self.addSubview(labelName)
         self.addSubview(self.potView!)
         self.addSubview(self.handView!)
+        if let _ = player.separatedHand{
+            self.addSubview(self.separatedHandView!)
+        }
         self.addSubview(self.betView!)
     }
 }

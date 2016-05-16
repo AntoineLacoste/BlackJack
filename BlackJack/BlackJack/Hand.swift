@@ -37,11 +37,17 @@ class Hand{
         return false
     }
     
+    func haveChoiceForAs() -> Bool{
+        if self.BJValue < 12{
+            return true
+        }
+        
+        return false
+    }
+    
     func canDouble() -> Bool{
-        for card in self.cards{
-            if (card.value!.rawValue >= 9 && card.value!.rawValue <= 11){
-                return true
-            }
+        if self.BJValue <= 9 && self.BJValue >= 11 && self.cards.count == 2{
+            return true
         }
         
         return false        

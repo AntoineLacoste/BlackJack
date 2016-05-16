@@ -57,7 +57,7 @@ class TokenView: UIView  {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: TokenView.columnValue, height: TokenView.rowValue))
         let labelStr = "\(self.token!.tokenColor) \(self.token!.number)"
         label.text = labelStr
-        label.font = label.font.fontWithSize(14)
+        label.font = label.font.fontWithSize(13)
         
         self.addSubview(label)
     }
