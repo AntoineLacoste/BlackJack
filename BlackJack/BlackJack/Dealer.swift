@@ -234,24 +234,34 @@ class Dealer{
             }
             alreadyResolved = false
         }
+        
         if !alreadyResolved{
             for index in 0..<self.players.count{
                 let player = self.players[index]
                 
                 if player.stillAlive{
-                    if player.BJValue > self.BJValue{
-                        player.pot.addPot(player.currentBet)
-                        player.pot.addPot(player.currentBet)
-                        
-                        if index == 0 {
-                            totalEarned += player.currentBet.value * 2
-                        }
-                    }
                     
-                    if player.BJValue == self.BJValue{
+                    if player.BlackJackMain{
                         player.pot.addPot(player.currentBet)
-                        if index == 0 {
-                            totalEarned += player.currentBet.value
+                        player.pot.addPot(player.currentBet)
+                        player.pot.addPot(player.currentBet.divideByTwo())
+                        totalEarned += Int(Double(player.currentBet.value) * 2.5)
+                    }
+                    else{
+                        if player.BJValue > self.BJValue{
+                            player.pot.addPot(player.currentBet)
+                            player.pot.addPot(player.currentBet)
+                            
+                            if index == 0 {
+                                totalEarned += player.currentBet.value * 2
+                            }
+                        }
+                        
+                        if player.BJValue == self.BJValue{
+                            player.pot.addPot(player.currentBet)
+                            if index == 0 {
+                                totalEarned += player.currentBet.value
+                            }
                         }
                     }
                 }

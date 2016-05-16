@@ -85,10 +85,6 @@ class Pot{
         return Pot(nbBlue, nbGreen, nbRed, nbBlack)
     }
     
-    func numberToPot(){
-        
-    }
-    
     func copy() -> Pot{
         let nbBlue  = self.tokens[0].number
         let nbGreen = self.tokens[1].number
