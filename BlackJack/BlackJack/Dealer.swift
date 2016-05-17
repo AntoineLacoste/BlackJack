@@ -386,7 +386,11 @@ class Dealer{
                 }
             }
             
-            if self.currentBJPlayer.BJValue > 21{
+            if self.currentBJPlayer.BJValue > 21 && !self.currentBJPlayer.standForMainHand{
+                NSNotificationCenter.defaultCenter().postNotificationName("burn", object: nil)
+            }
+            
+            if self.currentBJPlayer.BJValueSeparated  > 21 && self.currentBJPlayer.BJValueSeparated > 0{
                 NSNotificationCenter.defaultCenter().postNotificationName("burn", object: nil)
             }
             
